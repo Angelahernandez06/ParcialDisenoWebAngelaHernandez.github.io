@@ -1,0 +1,20 @@
+.round {
+    border-radius: 1rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.img-card {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
